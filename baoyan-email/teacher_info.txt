@@ -1,0 +1,106 @@
+[
+    {
+        "email": "bailu@bnu.edu.cn",
+        "teacher_name": "白璐",
+        "degree_type": "硕士研究生",
+        "research_interest": "金融人工智能",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "rfbie@bnu.edu.cn",
+        "teacher_name": "别荣芳",
+        "degree_type": "硕士研究生",
+        "research_interest": "数据挖掘",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "changliang@bnu.edu.cn",
+        "teacher_name": "常亮",
+        "degree_type": "硕士研究生",
+        "research_interest": "计算机视觉",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "zhen.cui@bnu.edu.cn",
+        "teacher_name": "崔振",
+        "degree_type": "硕士研究生",
+        "research_interest": "视觉感知与理解",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "ctding@bnu.edu.cn",
+        "teacher_name": "丁春涛",
+        "degree_type": "硕士研究生",
+        "research_interest": "模型压缩和量化",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "fqduan@bnu.edu.cn",
+        "teacher_name": "段福庆",
+        "degree_type": "硕士研究生",
+        "research_interest": "模式识别",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "fcq@bnu.edu.cn",
+        "teacher_name": "范超琼",
+        "degree_type": "硕士研究生",
+        "research_interest": "类脑神经网络",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "jianwei.guo@bnu.edu.cn",
+        "teacher_name": "郭建伟",
+        "degree_type": "硕士研究生",
+        "research_interest": "多模态人工智能",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "gxj@bnu.edu.cn",
+        "teacher_name": "郭小娟",
+        "degree_type": "硕士研究生",
+        "research_interest": "医学影像分析",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "yuguo@bnu.edu.cn",
+        "teacher_name": "郭宇",
+        "degree_type": "硕士研究生",
+        "research_interest": "人工智能安全",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "huahuang@bnu.edu.cn",
+        "teacher_name": "黄华",
+        "degree_type": "硕士研究生",
+        "research_interest": "端侧感知",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "cyxu@sei.ecnu.edu.cn",
+        "teacher_name": "许晨阳",
+        "degree_type": "硕士研究生",
+        "research_interest": "图神经网络",
+        "representative_works": "",
+        "paper_appreciation": ""
+    },
+    {
+        "email": "lipingwang@sei.ecnu.edu.cn",
+        "teacher_name": "王丽苹",
+        "degree_type": "硕士研究生",
+        "research_interest": "智能系统",
+        "representative_works": "",
+        "paper_appreciation": ""
+    }
+]
