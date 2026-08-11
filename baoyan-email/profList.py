@@ -49,7 +49,6 @@ def extract_teacher_info(excel_file, start_row, end_row, output_file):
             'teacher_name': teacher_name,  # 改为完整姓名
             'degree_type': '硕士研究生',  # 默认值
             'research_interest': research_interest,
-            'representative_works': '',  # 默认为空
             'paper_appreciation': ''  # 默认为空
         }
 
