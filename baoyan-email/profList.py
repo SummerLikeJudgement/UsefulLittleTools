@@ -28,8 +28,21 @@ def extract_teacher_info(excel_file, start_row, end_row, output_file):
     selected_rows = df.iloc[start_idx:end_idx + 1]
 
     result_list = []
+    skipped_by_remark = []
 
     for idx, row in selected_rows.iterrows():
+        remark = row.get('备注')
+        if pd.notna(remark) and str(remark).strip():
+            teacher_name = str(row.get('老师', '')) if pd.notna(row.get('老师')) else ''
+            email = str(row.get('邮箱', '')) if pd.notna(row.get('邮箱')) else ''
+            skipped_by_remark.append({
+                'row': idx + 2,
+                'teacher_name': teacher_name,
+                'email': email,
+                'remark': str(remark).strip()
+            })
+            continue
+
         # 跳过空行（如果老师姓名为空或者邮箱为空）
         if pd.isna(row.get('老师')) or pd.isna(row.get('邮箱')):
             continue
@@ -60,6 +73,14 @@ def extract_teacher_info(excel_file, start_row, end_row, output_file):
         json.dump(result_list, f, ensure_ascii=False, indent=4)
 
     print(f"成功提取 {len(result_list)} 位老师的信息")
+    print(f"因备注非空跳过 {len(skipped_by_remark)} 位老师的信息")
+    if skipped_by_remark:
+        print("跳过记录如下：")
+        for item in skipped_by_remark:
+            print(
+                f"行号: {item['row']}, 姓名: {item['teacher_name']}, "
+                f"邮箱: {item['email']}, 备注: {item['remark']}"
+            )
     print(f"结果已保存到: {output_file}")
 
     return result_list
